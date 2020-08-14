@@ -1,38 +1,58 @@
 .App {
-  text-align: center;
+  width: 80%;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-label {
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-input {
+  height: 30px;
+  flex-grow: 1;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  border: 1px solid lightgray;
+  padding: 0 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-searchButton {
+  height: 32px;
+  border-radius: 0 10px 10px 0;
+  outline: none;
+  border: none;
+  padding: 0 25px;
+  background-color: lightgray;
+}
+
+.App-inputArea {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.RepositoryList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.RepositoryList-item {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  width: 350px;
+  margin: 5px;
+}
+
+.RepositoryList-itemHeader {
+  font-weight: bold;
+  font-size: 22px;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+
+.RepositoryList-itemDescription {
+  margin: 5px 0;
+  padding: 10px;
+  color: gray;
 }
