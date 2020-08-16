@@ -1,0 +1,21 @@
+.UserDisplay {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.UserDisplay-name {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.UserDisplay-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.UserDisplay-bio {
+  color: gray;
+}

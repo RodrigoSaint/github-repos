@@ -1,0 +1,53 @@
+.RepositoryList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px;
+}
+
+.RepositoryList-item {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  width: 350px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.RepositoryList-itemHeader {
+  font-weight: bold;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.RepositoryList-itemHeaderAvatar {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 0;
+}
+
+.RepositoryList-itemLanguage {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.RepositoryList-itemDescription {
+  flex-grow: 1;
+  margin: 0 0 15px 0;
+  line-height: 1.25em;
+}
+
+.RepositoryList-itemLink {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #21ba45;
+  display: block;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+  text-align: center;
+}
